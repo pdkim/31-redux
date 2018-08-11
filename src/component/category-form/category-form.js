@@ -20,7 +20,7 @@ class CategoryForm extends Component {
   onComplete = (event) => {
     event.preventDefault();
     console.log('complete!');
-    this.props.categoryCreate({ ...this.state, id: uuid() });
+    this.props.categoryCreate({ ...this.state, id: uuid(), timestamp: new Date().toLocaleTimeString()});
     this.setState({ ...this.defaultState });
   };
 

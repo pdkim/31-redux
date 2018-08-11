@@ -13,7 +13,13 @@ class CategoryUpdate extends Component {
     event.preventDefault();
     this.props.onDone();
     this.props.categoryUpdate(this.state);
+    this.updateTime();
   };
+
+  updateTime = () => {
+    let newTime  = new Date().toLocaleTimeString();
+    this.setState({timestamp: newTime});
+  }
 
   onCancel = () => this.props.onCancel();
 

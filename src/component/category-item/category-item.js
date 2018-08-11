@@ -31,6 +31,7 @@ class CategoryItem extends Component {
           <h2>{this.props.category.name}</h2>
           <p>{this.props.category.budget}</p>
           <button onClick={() => this.props.onRemove(this.props.category)}>Delete</button>
+          <p>{this.props.category.timestamp}</p>
         </li>
       );
     } else {
