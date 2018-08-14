@@ -1,8 +1,8 @@
 #Travis
-
+[![Build Status](https://travis-ci.com/pdkim/31-redux.svg?branch=pk31)](https://travis-ci.com/pdkim/31-redux)
 
 #Heroku
-
+https://pk-31-redux.herokuapp.com/
 
 #Github
 https://github.com/pdkim/31-redux
